@@ -1,99 +1,104 @@
 *{
-    padding:0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body{
-background-color: #F6F8F9;
+    background-color: #f6f8f9; 
 }
 
-
-header h1{
+header#header-logo h1{
     display: inline-block;
-    font-size: 2rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: oblique;
-    vertical-align: middle;
-
-
-}
-.main-logo{
-    vertical-align: middle;
+    font-size: 3rem;
+    font-family: 'Gill Sans', sans-serif;
+    vertical-align: top;
     
 }
-section#main-logo{
-    padding-top:1rem;
-    margin-top:1.2rem;
+
+#header-logo{
+    padding: 1rem;
     background-color: white;
-    vertical-align: middle;
-    
 }
 
-
-.main-logo-container{
-    width: 100%;
-    
-    
+.container{
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 0.2rem;
 }
 
-
-section#button-main{
+#container-button-main{
     margin-top: 3rem;
     padding: 0.8rem 3rem;
-    border-bottom: 1px solid #f6f8f9; 
+    border-bottom: 3px solid #f6f8f9; 
 }
 
-
-section button.style{
+.style-button{
     width: 6rem;
     padding: 0.3rem;
     border-radius: 0.3rem;
 }
 
-
-section button.task{
+.task-button{
     color: white;
     background-color: #47adf1;
     border: none;
 }
 
-section button.select{
+.asection-button{
     color: #d5d9dd;
     background-color: white;
     border: 1px solid #d5d9dd
 }
 
-div.container{
-    width: 60%;
-    margin: 0 auto;
-    background-color: white;
-    border-radius: 0.2rem;
-    border-bottom: grey 2px;
-    
-}
-
 .task-container{
+   
+    padding: 2rem 0 0 4rem;
+    font-family: 'Gill Sans', sans-serif;
+}
+
+.list-style{
     list-style: none;
-    margin: 0 auto;
-    width: 60%;
-    background-color: white;
-    
+    font-size: 1.1rem;
+    font-family: 'Gill Sans', sans-serif;
+    color: #4e525a;
+    padding-bottom: 1.5rem;
+
 }
 
-ul{
-    list-style: none;   
+.task-title{
+    color: #474b54;
+    margin-bottom: 0.7rem;
 }
 
-.entities-green{
-    color: rgb(0, 255, 34);
-    border: 1px solid rgb(0, 255, 34);
+.checked{
+    color: #91d4c4;
+    border: 2px solid #91d4c4;
     border-radius: 100%;
-    margin:1px;
+    padding: 0.1rem 0.2rem;
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
 }
 
-.topics-colored{
-    background-color: #47adf1;
-    border-radius: 5px;
-    padding:3px;
+.unchecked{
+    color: #ec594f;
+    border: 2px solid #ec594f;
+    border-radius: 100%;
+    padding: 0.1rem 0.2rem;
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
+
+}
+
+.marker-text{
+    font-size: 0.7rem;
+    color: white;
+    background-color: #45abea;
+    padding: 0.4rem;
+    border-radius: 0.7rem;
+}
+
+.marker-text{
+    background-color: #ec594f;
 }

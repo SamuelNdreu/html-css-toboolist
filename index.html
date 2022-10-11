@@ -1,49 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
-</head>
-<body>
-    <!-- MAIN LOGO & HEADER TITLE -->
-    <header class="main-logo-container">
-        <section id="main-logo">
-            <img src="./img/logo.png" class="main-logo" alt="boolean-logo">
-            <h1>ToBoolist</h1>
-        </section>
-    </header>
-    <!-- NEW SECTION FOR ADD TASK ADD SECTION -->
-    <main>
-        <div class="container">
-            <section id="button-main">
-                <button class="style task">Add Task</button>
-                <button class="style select">Add Section</button>
-            </section>
-        </div>
-        <section class="task-container">
-            <ul>
-                <li>
-                    &#9660; New Task
-                </li>
-                <li>
-                    <span class="entities-green">&check;</span> Quarterly Newsletter <span class="topics-colored">Editorial</span>
-                </li>
-            </ul>
-
-        </section>
-
-        
-
-
-    </main>
-
-    <footer>
-        
-    </footer>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TOBOOLIST</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
     
-</body>
+    <body>
+        
+        <!-- TITLE AND LOGO -->
+        <header id="header-logo">
+            <img src="./img/logo.png" alt="Logo list">
+            <h1>Toboolist</h1>
+        </header>
+        
+        <div class="container"> 
+            <main>
+                <!-- BUTTON ADD TASK AND SECTION -->
+                <section id="container-button-main">
+                    <button class="style-button task-button">Add Task</button>
+                    <button class="style-button asection-button">Add Section</button>
+                </section>
+                <!-- LIST TASK -->
+                <section class="task-container">
+                    <header class="task-title">
+                        <h2>&#9207;New Task</h2>
+                    </header>
+                    
+                    <ol>
+                        <li class="list-style"><span class="checked">&#10004;</span>Quarterly Newsletter <span class="marker-text">Editorial</span></li>
+                    </ol>
+                </section>
+
+                <section class="task-container">
+                    <header class="task-title">
+                        <h2>&#9207;Today</h2>
+                    </header>
+                    
+                    <ol>
+                        <li class="list-style"><span class="checked">&#10004;</span>Recruiting blog post <span class="marker-text">Editorial</span></li>
+                    </ol>
+                    <ol>
+                        <li class="list-style"><span class="checked">&#10004;</span>Mobile app luaunch <span class="marker-text">Q1 Goals</span></li>
+                    </ol>
+                    <ol>
+                        <li class="list-style"><span class="unchecked">&#9747;</span>Interview John H. <span class="marker-text">Recruiting</span></li>
+                    </ol>
+                    <ol>
+                        <li class="list-style"><span class="checked">&#10004;</span>Summit update to mobile storefronts <span class="marker-text">Mobile</span></li>
+                    </ol>
+                </section>
+
+                <section class="task-container">
+                    <header class="task-title">
+                        <h2>&#9207;Upcoming</h2>
+                    </header>
+                    
+                    
+                </section>
+
+            </main>
+        </div> 
+    </body>
 </html>
