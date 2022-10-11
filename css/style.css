@@ -1,0 +1,48 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+background-color: #c9cdd0;
+}
+
+
+header h1{
+    display: inline-block;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    vertical-align: top;
+
+
+}
+
+section#main-logo{
+    margin-top:1.2rem;
+    background-color: white;
+}
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+
+.container-buttons{
+    margin: 0 auto;
+    padding-top: 10px;
+    background-color: white;
+    width: 80%;
+}
+
+#container-with-tasks{
+    width: 58%;
+    margin: 0 auto;
+    margin-top: 30px;
+    height: 58px;
+    background-color: rgb(255, 255, 255);
+}
