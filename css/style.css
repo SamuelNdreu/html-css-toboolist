@@ -85,7 +85,7 @@ header#header-logo h1{
     margin-bottom: 0.7rem;
 }
 
-.checked{
+span.checked{
     color: #91d4c4;
     border: 2px solid #91d4c4;
     border-radius: 100%;
@@ -94,7 +94,7 @@ header#header-logo h1{
     margin-right: 0.5rem;
 }
 
-.unchecked{
+span.unchecked{
     color: #ec594f;
     border: 2px solid #ec594f;
     border-radius: 100%;
