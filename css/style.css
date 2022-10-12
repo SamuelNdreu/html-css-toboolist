@@ -89,18 +89,27 @@ span.checked{
     color: #91d4c4;
     border: 2px solid #91d4c4;
     border-radius: 100%;
-    padding: 0.1rem 0.2rem;
-    font-size: 0.8rem;
+    padding: 0.1rem 0.3rem 0.1rem 0.3rem;
+    font-size: 0.7rem;
     margin-right: 0.5rem;
+    width: 1.4rem;
+    display: inline-block;
+    height: 1.4rem;
+    
 }
 
 span.unchecked{
+    
     color: #ec594f;
     border: 2px solid #ec594f;
     border-radius: 100%;
-    padding: 0.1rem 0.2rem;
-    font-size: 0.8rem;
+    padding: 0.1rem 0.33rem 0.1rem 0.33rem;
+    font-size: 0.7rem;
     margin-right: 0.5rem;
+    width: 1.4rem;
+    display: inline-block;
+    height: 1.4rem;
+    
 
 }
 
@@ -132,7 +141,7 @@ span.unchecked{
     background-color: #f29e33 ;
 }
 
-.Website-pink{
+.website-pink{
     background-color: #d863a1 ;
 }
 
